@@ -1,22 +1,8 @@
 import React from 'react';
 import { ChakraProvider, Box, Heading, Link as ChakraLink } from '@chakra-ui/react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import {ProjectsList} from './components/ProjectsList';
+import { Home } from './components/Home'
 
-const projects = [
-  { name: 'ToDO react', url: 'https://jorgeef.github.io/DEPLOY_AP-React_TP-Integrador_Grupo-N/' },
-  { name: 'Project 2', url: 'https://example.com/project2' },
-  // Agrega más proyectos según sea necesario
-];
-
-const Home = () => (
-  <Box textAlign="center">
-    <Heading as="h1" mb="4">
-      My Portfolio
-    </Heading>
-    <ProjectsList projects={projects} />
-  </Box>
-);
 
 const About = () => (
   <Box textAlign="center">
