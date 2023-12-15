@@ -102,10 +102,10 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel pb={4}  minW="250px">
-                      Crear una aplicación web utilizando React que permita gestionar una lista de tareas. La
-                      aplicación deberá hacer uso de componentes funcionales, el hook useState para el manejo del
-                      estado, el hook useEffect para realizar efectos secundarios, y eventos para interactuar con el
-                      usuario.
+                      Aplicacion React que permite gestionar una lista de tareas. La
+                      aplicación hace uso de componentes funcionales, el hook useState para el manejo del
+                      estado, el hook useEffect para realizar efectos secundarios y eventos para interactuar con el
+                      usuario. Se utiliza el localStorage del navegador para la persistencia de datos.
                       </AccordionPanel>
                     </AccordionItem>                    
                   </Accordion>
